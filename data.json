@@ -1,0 +1,27 @@
+{
+  "result": [
+    {
+      "project_name": "SirNow",
+      "environments": [
+        {
+          "environment_name": "Pre Prod",
+          "environment_link": "https://sirnowpreprod.service-now.com/navpage.do"
+        },
+        {
+          "environment_name": "Qualif",
+          "environment_link": "https://sirnowqualif.service-now.com/navpage.do"
+        },
+        {
+          "environment_name": "Dev",
+          "environment_link": "https://sirnowdev.service-now.com/now/nav/ui/home"
+        }
+      ],
+      "docs": [
+        {
+          "doc_name": "Jira Backlog",
+          "doc_link": "https://bouyguestelecom.atlassian.net/jira/software/c/projects/SRN/boards/290/backlog"
+        }
+      ]
+    }
+  ]
+}

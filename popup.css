@@ -1,0 +1,78 @@
+/* Base */
+body {
+    font-family: Arial, sans-serif;
+    width: 350px;
+    margin: 0;
+    padding: 12px;
+    background: #f9f9f9;
+    box-sizing: border-box;
+}
+
+/* Project title */
+h2 {
+    margin: 0 0 12px 0;
+    font-size: 16px;
+    text-align: center;
+    color: #333;
+}
+
+/* Tabs */
+.tabs {
+    display: flex;
+    margin-bottom: 12px;
+    border-radius: 8px;
+    overflow: hidden;
+    border: 1px solid #ddd;
+}
+
+.tab {
+    flex: 1;
+    padding: 8px;
+    text-align: center;
+    cursor: pointer;
+    background: #eee;
+    font-size: 13px;
+    user-select: none;
+}
+
+.tab.active {
+    background: #007bff;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Content areas */
+.content {
+    display: none;
+}
+
+.content.active {
+    display: block;
+}
+
+/* Buttons (env & docs) */
+.btn {
+    display: block;
+    width: 90%;
+    padding: 8px;
+    margin-bottom: 8px;
+    text-align: center;
+    background: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 13px;
+    text-decoration: none;
+    color: #333;
+    transition: background 0.2s ease, color 0.2s ease;
+}
+
+.btn:hover {
+    background: #007bff;
+    color: #ffffff;
+}
+
+/* Remove last margin */
+.btn:last-child {
+    margin-bottom: 0;
+}

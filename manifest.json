@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "Project Quick Access",
+  "version": "1.2",
+  "description": "Quick access to project environments and docs",
+  "author": "Nikhilesh",
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
